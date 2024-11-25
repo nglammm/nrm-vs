@@ -1,9 +1,9 @@
 {
-  "name": "ecliptix",
-  "displayName": "Ecliptix",
-  "description": "Ecliptix Language Support for VSCode",
-  "publisher": "webwise",
-  "version": "0.0.2",
+  "name": "nrm",
+  "displayName": "NRM - Normal",
+  "description": "NRM Language support for VSCode",
+  "publisher": "nglam",
+  "version": "0.0.1",
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -13,8 +13,8 @@
   "contributes": {
     "languages": [{
       "id": "ecx",
-      "aliases": ["Ecliptix", "ecx"],
-      "extensions": [".ecx"],
+      "aliases": ["NRM", "nrm"],
+      "extensions": [".nrm"],
 	  "icon": {
 		"light": "icons/ecx-light.png",
 		"dark": "icons/ecx-dark.png"
