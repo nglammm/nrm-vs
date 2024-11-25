@@ -16,28 +16,28 @@
       "aliases": ["NRM", "nrm"],
       "extensions": [".nrm"],
 	  "icon": {
-		"light": "icons/ecx-light.png",
-		"dark": "icons/ecx-dark.png"
+		"light": "icons/light.png",
+		"dark": "icons/dark.png"
 	  },
       "configuration": "./language-configuration.json"
     }, {
 		"id": "ec",
-		"aliases": ["Unsafe Ecliptix", "ec"],
-		"extensions": [".ec"],
+		"aliases": ["Not Normal", "_nrm"],
+		"extensions": ["._nrm"],
 		"icon": {
-			"light": "icons/ecx-light.png",
-			"dark": "icons/ecx-dark.png"
+			"light": "icons/light.png",
+			"dark": "icons/dark.png"
 	  	},
     	"configuration": "./language-configuration.json"
 	}],
     "grammars": [{
       "language": "ecx",
       "scopeName": "source.ecx",
-      "path": "./syntaxes/ecx.tmLanguage.json"
+      "path": "./syntaxes/nrm.tmLanguage.json"
     }, {
 		"language": "ec",
 		"scopeName": "source.ec",
-		"path": "./syntaxes/ec.tmLanguage.json"
+		"path": "./syntaxes/_nrm.tmLanguage.json"
 	}]
   }
 }
