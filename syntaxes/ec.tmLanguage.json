@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "Unsafe Ecliptix",
+	"name": "NRM",
 	"patterns": [
 		{
 			"include": "#keywords"
@@ -27,8 +27,8 @@
 			"patterns": [
 				{
 					"name": "comment.block.hash",
-					"begin": "/*",
-					"end": "*/"
+					"begin": "!!",
+					"end": "!!"
 				}
 			]
 		},
@@ -36,7 +36,7 @@
 			"patterns": [
 				{
 					"name": "keyword",
-					"match": "\\b(set|lock|fun|if|while|for|return|else|while|when|merge)\\b"
+					"match": "\\b(let|constant|variable|is|be|now|null|true|false|create|changeable|unchangeable|function)\\b"
 				}
 			]
 		},
